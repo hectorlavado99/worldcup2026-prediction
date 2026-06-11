@@ -3563,11 +3563,11 @@ async function init() {
     });
   });
 
-   document.getElementById('btnReset').addEventListener('click', () => {
+/*   document.getElementById('btnReset').addEventListener('click', () => {
    resetState();
    computeMatchTeams();
    renderAll();
- });
+ });*/
   const btnScoringHelp = document.getElementById('btnScoringHelp');
   if (btnScoringHelp) {
     btnScoringHelp.addEventListener('click', openScoringHelpModal);
