@@ -7,7 +7,7 @@ const DATA_SRC = 'https://raw.githubusercontent.com/openfootball/worldcup.json/r
 // EDITA ESTAS 3 COSAS POR FAVOR
 // POR FAVOR
 const LEADERBOARD_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTS0qd0VJePu37wkFHyVkxfrA8-fJkeync9A9zkYSqB5uXc3tRwR3KYOSTDsy3E-P0pDuPr51Cu1csR/pub?gid=1786890726&single=true&output=csv'
-const FORM_ID = 'FAIpQLSfV1biTblivvAyoUqaSqqlHBNUW2EJm7UjtotPtM8uYyZaCMQ';
+const FORM_ID = '1FAIpQLSfV1biTblivvAyoUqaSqqlHBNUW2EJm7UjtotPtM8uYyZaCMQ';
 const ENTRY_ID = 'entry.265377558';
 // REPITO, POR FAVOR
 
