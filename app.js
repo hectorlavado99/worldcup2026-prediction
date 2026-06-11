@@ -3503,12 +3503,12 @@ async function confirmSubmitPrediction() {
 
 // ---- Master Render ----
 function renderAll() {
-  // buildTPAllocation();
-  // computeMatchTeams();
-  // renderGroups();
-  // renderThirdPlace();
-  // renderBracket();
-  // renderAwardSelects();
+   buildTPAllocation();
+   computeMatchTeams();
+   renderGroups();
+   renderThirdPlace();
+   renderBracket();
+   renderAwardSelects();
 
   loadLeaderboard();
 }
@@ -3563,22 +3563,22 @@ async function init() {
     });
   });
 
-  // document.getElementById('btnReset').addEventListener('click', () => {
-//   resetState();
-//   computeMatchTeams();
-//   renderAll();
-// });
+   document.getElementById('btnReset').addEventListener('click', () => {
+   resetState();
+   computeMatchTeams();
+   renderAll();
+ });
   const btnScoringHelp = document.getElementById('btnScoringHelp');
   if (btnScoringHelp) {
     btnScoringHelp.addEventListener('click', openScoringHelpModal);
   }
-  // document.getElementById('btnSubmit').addEventListener('click', submitPrediction);
-// document.getElementById('confirmNameSubmit').addEventListener('click', confirmSubmitPrediction);
-// document.getElementById('cancelNameSubmit').addEventListener('click', closeNameModal);
-// document.getElementById('playerNameInput').addEventListener('keydown', e => {
-//   if (e.key === 'Enter') confirmSubmitPrediction();
-//   if (e.key === 'Escape') closeNameModal();
-// });
+   document.getElementById('btnSubmit').addEventListener('click', submitPrediction);
+ document.getElementById('confirmNameSubmit').addEventListener('click', confirmSubmitPrediction);
+ document.getElementById('cancelNameSubmit').addEventListener('click', closeNameModal);
+ document.getElementById('playerNameInput').addEventListener('keydown', e => {
+   if (e.key === 'Enter') confirmSubmitPrediction();
+   if (e.key === 'Escape') closeNameModal();
+ });
 
   document.getElementById('closePredictionModal').addEventListener('click', closePredictionModal);
 
@@ -3594,9 +3594,9 @@ async function init() {
   });
 
 
-  // restoreLocalPrediction();
-// fillAwards(state.awards);
-// computeMatchTeams();
+   restoreLocalPrediction();
+ fillAwards(state.awards);
+ computeMatchTeams();
    renderAll();
 
   document.querySelectorAll('#awardGb1,#awardGb2,#awardGb3,#awardBa1,#awardBa2,#awardBa3').forEach(el => {
